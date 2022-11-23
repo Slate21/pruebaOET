@@ -1,0 +1,72 @@
+/* Importando fuente */
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+/* Aplicando fuente a todos los objetos */
+*{
+    font-family: 'Jaldi', sans-serif;
+}
+
+/* Estilos no bootstrap de la barra nav */
+.navCss{
+    width: 99vw;
+    background-color: #f5e6ff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.navCss h2{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+/* Estilos de los botones */
+.btnCss{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.btnregistrarCss{
+    margin-left: 33%;
+    width: 20em;
+}
+
+/* Estilos de registrar datos en la parte superior */
+.divRegistrarDatos{
+    padding: 20px;
+}
+
+/* Estilos de cada div que contiene el formulario */
+.divFormulario{
+    width: 60em;
+    margin: auto;
+    background-color: rgb(233, 218, 247);
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 6px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    display: none;
+}
+
+.divFormulario h4{
+    color: rgb(106, 16, 190);
+}
+
+/* Estilos para todos los titulos de tabla */
+.divTbltitulos{
+    padding: 20px;
+}
+
+/* Estilo Informe.php */
+.secinforme{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 218, 247);
+    width: 50em;
+    margin: auto;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.secinforme div{
+    margin: 20px;
+    font-size: larger;
+}
