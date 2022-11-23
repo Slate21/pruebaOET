@@ -74,16 +74,6 @@ function formularioPersona() {
     }
 }
 
-// Variables en el formulario Vehiculos
-lblPlaca = document.getElementById("lblPlaca");
-color = document.getElementById("color");
-selectTipoV = document.getElementById("selectTipoV");
-CC_Conductor = document.getElementById("CC_Conductor");
-CC_propietario = document.getElementById("CC_propietario");
-
-//Variables en el formulario propietarios, conductores
-CC_Persona = document.getElementById
-
 // Validación de formularios por JQuery
 // Formulario Vehiculos
 $(document).ready(function () {
