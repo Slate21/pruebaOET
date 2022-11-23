@@ -126,42 +126,54 @@ $(document).ready(function () {
         rules: {
             CC_Persona: {
                 required: true,
+                minlength: 5
             },
             name_persona: {
                 required: true,
+                minlength: 5
             },
             lastname_persona: {
                 required: true,
+                minlength: 5
             },
             location_persona: {
                 required: true,
+                minlength: 5
             },
             city: {
-                required: true
+                required: true,
+                minlength: 5
             },
             numberP: {
-                required: true
+                required: true,
+                minlength: 5
             }
         },
         // Mensajes si la validación es erronea
         messages: {
             CC_Persona: {
-                required: "Por favor ingrese la cedula de la persona"
+                required: "Por favor ingrese la cedula de la persona",
+                minlength: "Ha ingresado muy pocos datos"
             },
             name_persona: {
-                required: "Ingrese el nombre de la persona"
+                required: "Ingrese el nombre de la persona",
+                minlength: "Ha ingresado muy pocos datos"
             },
             lastname_persona: {
-                required: "Ingrese el apellido de la persona"
+                required: "Ingrese el apellido de la persona",
+                minlength: "Ha ingresado muy pocos datos"
             },
             location_persona: {
-                required: "Debe ingresar la dirección"
+                required: "Debe ingresar la dirección",
+                minlength: "Ha ingresado muy pocos datos"
             },
             city: {
-                required: "Debe ingresar la ciudad"
+                required: "Debe ingresar la ciudad",
+                minlength: "Ha ingresado muy pocos datos"
             },
             numberP: {
-                required: "Debe ingresar el número telefónico"
+                required: "Debe ingresar el número telefónico",
+                minlength: "Ha ingresado muy pocos datos"
             }
         }
     });
